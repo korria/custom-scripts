@@ -1,4 +1,4 @@
-var tonemapMethod = 4;
+var tonemapMethod = 3;
 // 0 - Simple Reinhard
 // 1 - Luma based Reinhard
 // 2 - Uncharted 2 filmic curve
@@ -7,7 +7,7 @@ var tonemapMethod = 4;
 
 var debug = false;
 
-var adjForSunColor = true;
+var adjForSunColor = false;
 
 var atmosphere = 0.025;
 
@@ -15,7 +15,7 @@ var gain = 1.5;
 
 var saturation = 2.0;
 
-var White = 2.5;
+var White = 3.0;
 
 // atmospheric adjustment
 //https://custom-scripts.sentinel-hub.com/sentinel-2/poor_mans_atcor/#
